@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_MvZKEMhwEfGHcKy44C1iHA" name="UniDormWarden">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_MylA8MhwEfGHcKy44C1iHA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LRpOIMh6EfGHcKy44C1iHA" name="UniDorm Warden Subsystem" useCase="_SYXZMMh6EfGHcKy44C1iHA _T9inQMh6EfGHcKy44C1iHA _WERDMMh6EfGHcKy44C1iHA _X5BlYMh6EfGHcKy44C1iHA _aPRrEMh6EfGHcKy44C1iHA _b4-MwMh6EfGHcKy44C1iHA _djU1wMh6EfGHcKy44C1iHA _geFWsMh6EfGHcKy44C1iHA _h3bvQMh6EfGHcKy44C1iHA _jeX34Mh6EfGHcKy44C1iHA _oLZnsMh6EfGHcKy44C1iHA _qhnRIMh6EfGHcKy44C1iHA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_SYXZMMh6EfGHcKy44C1iHA" name="Authenticate Warden" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_T9inQMh6EfGHcKy44C1iHA" name="Manage shift log" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WERDMMh6EfGHcKy44C1iHA" name="Manage maintenance tickets" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_X5BlYMh6EfGHcKy44C1iHA" name="Manage spare parts inventory" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_aPRrEMh6EfGHcKy44C1iHA" name="Manage parcels" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_b4-MwMh6EfGHcKy44C1iHA" name="Manage vistors and temp keys" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_djU1wMh6EfGHcKy44C1iHA" name="Track loaned assets and loanables" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_geFWsMh6EfGHcKy44C1iHA" name="Conduct facility inspections" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_h3bvQMh6EfGHcKy44C1iHA" name="Assess property damage" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jeX34Mh6EfGHcKy44C1iHA" name="Monitor facility alerts" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_oLZnsMh6EfGHcKy44C1iHA" name="Manage emerciencies and security issues" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qhnRIMh6EfGHcKy44C1iHA" name="Manage welfare checks and manage communications" subject="_LRpOIMh6EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_O3tV4Mh6EfGHcKy44C1iHA" name="Warden"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zoXaQMh6EfGHcKy44C1iHA" memberEnd="_zoYBUsh6EfGHcKy44C1iHA _zoYBU8h6EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zoYBUMh6EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zoYBUch6EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zoYBUsh6EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_zoXaQMh6EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zoYBU8h6EfGHcKy44C1iHA" name="authenticate warden" type="_SYXZMMh6EfGHcKy44C1iHA" association="_zoXaQMh6EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1HDl0Mh6EfGHcKy44C1iHA" memberEnd="_1HDl08h6EfGHcKy44C1iHA _1HDl1Mh6EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1HDl0ch6EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1HDl0sh6EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1HDl08h6EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_1HDl0Mh6EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1HDl1Mh6EfGHcKy44C1iHA" name="manage shift log" type="_T9inQMh6EfGHcKy44C1iHA" association="_1HDl0Mh6EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_53-XIMh6EfGHcKy44C1iHA" memberEnd="_53--Msh6EfGHcKy44C1iHA _53--M8h6EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_53--MMh6EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_53--Mch6EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_53--Msh6EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_53-XIMh6EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_53--M8h6EfGHcKy44C1iHA" name="manage maintenance tickets" type="_WERDMMh6EfGHcKy44C1iHA" association="_53-XIMh6EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8speMMh6EfGHcKy44C1iHA" memberEnd="_8speM8h6EfGHcKy44C1iHA _8speNMh6EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8speMch6EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8speMsh6EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8speM8h6EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_8speMMh6EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8speNMh6EfGHcKy44C1iHA" name="manage spare parts inventory" type="_X5BlYMh6EfGHcKy44C1iHA" association="_8speMMh6EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-JB8oMh6EfGHcKy44C1iHA" memberEnd="_-JCjssh6EfGHcKy44C1iHA _-JCjs8h6EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-JCjsMh6EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-JCjsch6EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-JCjssh6EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_-JB8oMh6EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-JCjs8h6EfGHcKy44C1iHA" name="manage parcels" type="_aPRrEMh6EfGHcKy44C1iHA" association="_-JB8oMh6EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__D6QgMh6EfGHcKy44C1iHA" memberEnd="__D63ksh6EfGHcKy44C1iHA __D7eoMh6EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__D63kMh6EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__D63kch6EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__D63ksh6EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="__D6QgMh6EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__D7eoMh6EfGHcKy44C1iHA" name="manage vistors and temp keys" type="_b4-MwMh6EfGHcKy44C1iHA" association="__D6QgMh6EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AqoWsMh7EfGHcKy44C1iHA" memberEnd="_Aqpk0Mh7EfGHcKy44C1iHA _Aqpk0ch7EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Aqo9wMh7EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Aqo9wch7EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Aqpk0Mh7EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_AqoWsMh7EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Aqpk0ch7EfGHcKy44C1iHA" name="track loaned assets and loanables" type="_djU1wMh6EfGHcKy44C1iHA" association="_AqoWsMh7EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CVWMEMh7EfGHcKy44C1iHA" memberEnd="_CVWzIch7EfGHcKy44C1iHA _CVWzIsh7EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CVWMEch7EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CVWzIMh7EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CVWzIch7EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_CVWMEMh7EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CVWzIsh7EfGHcKy44C1iHA" name="conduct facility inspections" type="_geFWsMh6EfGHcKy44C1iHA" association="_CVWMEMh7EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FttPAMh7EfGHcKy44C1iHA" memberEnd="_Ftt2Esh7EfGHcKy44C1iHA _Ftt2E8h7EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ftt2EMh7EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ftt2Ech7EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ftt2Esh7EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_FttPAMh7EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ftt2E8h7EfGHcKy44C1iHA" name="assess property damage" type="_h3bvQMh6EfGHcKy44C1iHA" association="_FttPAMh7EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GW7LIMh7EfGHcKy44C1iHA" memberEnd="_GW8ZQMh7EfGHcKy44C1iHA _GW8ZQch7EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GW7yMMh7EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GW7yMch7EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GW8ZQMh7EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_GW7LIMh7EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GW8ZQch7EfGHcKy44C1iHA" name="monitor facility alerts" type="_jeX34Mh6EfGHcKy44C1iHA" association="_GW7LIMh7EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IQGTQMh7EfGHcKy44C1iHA" memberEnd="_IQG6Uch7EfGHcKy44C1iHA _IQG6Ush7EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IQGTQch7EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IQG6UMh7EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IQG6Uch7EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_IQGTQMh7EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IQG6Ush7EfGHcKy44C1iHA" name="manage emerciencies and security issues" type="_oLZnsMh6EfGHcKy44C1iHA" association="_IQGTQMh7EfGHcKy44C1iHA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JG3jMMh7EfGHcKy44C1iHA" memberEnd="_JG4xUsh7EfGHcKy44C1iHA _JG4xU8h7EfGHcKy44C1iHA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JG4xUMh7EfGHcKy44C1iHA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JG4xUch7EfGHcKy44C1iHA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JG4xUsh7EfGHcKy44C1iHA" name="warden" type="_O3tV4Mh6EfGHcKy44C1iHA" association="_JG3jMMh7EfGHcKy44C1iHA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JG4xU8h7EfGHcKy44C1iHA" name="manage welfare checks and manage communications" type="_qhnRIMh6EfGHcKy44C1iHA" association="_JG3jMMh7EfGHcKy44C1iHA"/>
+  </packagedElement>
+</uml:Model>
