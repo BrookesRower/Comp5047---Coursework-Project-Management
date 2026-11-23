@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_KIu6cOcoEfGGV5w15Z9Mmg" name="Task-3B-Warden-Maintenance-Activity-Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_KMv3wOcoEfGGV5w15Z9Mmg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_3K4B8OcqEfGGV5w15Z9Mmg" name="MaintenanceTriageAndDispatch-3B" node="_jAevwOcrEfGGV5w15Z9Mmg _wBGtcOcrEfGGV5w15Z9Mmg _0rmtsOcrEfGGV5w15Z9Mmg _38vHQOcrEfGGV5w15Z9Mmg _6-CVEOcrEfGGV5w15Z9Mmg _-DpbIOcrEfGGV5w15Z9Mmg __puoIOcrEfGGV5w15Z9Mmg _VkZIoOcsEfGGV5w15Z9Mmg _ZFLHwOcsEfGGV5w15Z9Mmg _dUscMOcsEfGGV5w15Z9Mmg _hHpJYOcsEfGGV5w15Z9Mmg _zBeRsOcsEfGGV5w15Z9Mmg _0hbBgOcsEfGGV5w15Z9Mmg _4KlgkOcsEfGGV5w15Z9Mmg _-7nIcOcsEfGGV5w15Z9Mmg _KpKUsOctEfGGV5w15Z9Mmg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PDUoUOcsEfGGV5w15Z9Mmg" target="_6-CVEOcrEfGGV5w15Z9Mmg" source="_38vHQOcrEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QBx0oOcsEfGGV5w15Z9Mmg" target="_-DpbIOcrEfGGV5w15Z9Mmg" source="_6-CVEOcrEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QxASIOcsEfGGV5w15Z9Mmg" target="__puoIOcrEfGGV5w15Z9Mmg" source="_-DpbIOcrEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kYFmcOcsEfGGV5w15Z9Mmg" name="Yes" target="_VkZIoOcsEfGGV5w15Z9Mmg" source="__puoIOcrEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mlBYEOcsEfGGV5w15Z9Mmg" target="_ZFLHwOcsEfGGV5w15Z9Mmg" source="_VkZIoOcsEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nGP10OcsEfGGV5w15Z9Mmg" target="_dUscMOcsEfGGV5w15Z9Mmg" source="_ZFLHwOcsEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nlqVsOcsEfGGV5w15Z9Mmg" target="_hHpJYOcsEfGGV5w15Z9Mmg" source="_dUscMOcsEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rU-gEOcsEfGGV5w15Z9Mmg" target="_38vHQOcrEfGGV5w15Z9Mmg" source="_0rmtsOcrEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_u8W2cOcsEfGGV5w15Z9Mmg" target="_wBGtcOcrEfGGV5w15Z9Mmg" source="_jAevwOcrEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_w7juEOcsEfGGV5w15Z9Mmg" target="_0rmtsOcrEfGGV5w15Z9Mmg" source="_wBGtcOcrEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CReRAOctEfGGV5w15Z9Mmg" name="No" target="_zBeRsOcsEfGGV5w15Z9Mmg" source="_VkZIoOcsEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_F2sEMOctEfGGV5w15Z9Mmg" target="_0hbBgOcsEfGGV5w15Z9Mmg" source="_zBeRsOcsEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HlDqgOctEfGGV5w15Z9Mmg" target="_4KlgkOcsEfGGV5w15Z9Mmg" source="_0hbBgOcsEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ia5tYOctEfGGV5w15Z9Mmg" target="_-7nIcOcsEfGGV5w15Z9Mmg" source="_4KlgkOcsEfGGV5w15Z9Mmg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JNwtsOctEfGGV5w15Z9Mmg" target="_-7nIcOcsEfGGV5w15Z9Mmg" source="_hHpJYOcsEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_jAevwOcrEfGGV5w15Z9Mmg" name="Start" outgoing="_u8W2cOcsEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wBGtcOcrEfGGV5w15Z9Mmg" name="Warden: Opens and maintains tickets." incoming="_u8W2cOcsEfGGV5w15Z9Mmg" outgoing="_w7juEOcsEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0rmtsOcrEfGGV5w15Z9Mmg" name="System: Displays tickets that need to be done." incoming="_w7juEOcsEfGGV5w15Z9Mmg" outgoing="_rU-gEOcsEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_38vHQOcrEfGGV5w15Z9Mmg" name="Warden: Selects a ticket." incoming="_rU-gEOcsEfGGV5w15Z9Mmg" outgoing="_PDUoUOcsEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_6-CVEOcrEfGGV5w15Z9Mmg" name="System: Displays ticket details, and priority." incoming="_PDUoUOcsEfGGV5w15Z9Mmg" outgoing="_QBx0oOcsEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-DpbIOcrEfGGV5w15Z9Mmg" name="Warden: Claims a ticket." incoming="_QBx0oOcsEfGGV5w15Z9Mmg" outgoing="_QxASIOcsEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="__puoIOcrEfGGV5w15Z9Mmg" name="Can issue be resolved locally?" incoming="_QxASIOcsEfGGV5w15Z9Mmg" outgoing="_kYFmcOcsEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_VkZIoOcsEfGGV5w15Z9Mmg" name="Warden: Repairs." incoming="_kYFmcOcsEfGGV5w15Z9Mmg" outgoing="_mlBYEOcsEfGGV5w15Z9Mmg _CReRAOctEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZFLHwOcsEfGGV5w15Z9Mmg" name="Warden: Take a timestamped photo as proof of repair." incoming="_mlBYEOcsEfGGV5w15Z9Mmg" outgoing="_nGP10OcsEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_dUscMOcsEfGGV5w15Z9Mmg" name="Warden: Enter resolution message." incoming="_nGP10OcsEfGGV5w15Z9Mmg" outgoing="_nlqVsOcsEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hHpJYOcsEfGGV5w15Z9Mmg" name="Warden: Save evidence, close ticket." incoming="_nlqVsOcsEfGGV5w15Z9Mmg" outgoing="_JNwtsOctEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_zBeRsOcsEfGGV5w15Z9Mmg" name="Warden: Escalate the ticket." incoming="_CReRAOctEfGGV5w15Z9Mmg" outgoing="_F2sEMOctEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0hbBgOcsEfGGV5w15Z9Mmg" name="System: Fowards to contractors of student accommodation." incoming="_F2sEMOctEfGGV5w15Z9Mmg" outgoing="_HlDqgOctEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4KlgkOcsEfGGV5w15Z9Mmg" name="System: Update ticket status - escalated." incoming="_HlDqgOctEfGGV5w15Z9Mmg" outgoing="_Ia5tYOctEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-7nIcOcsEfGGV5w15Z9Mmg" name="Completed" incoming="_Ia5tYOctEfGGV5w15Z9Mmg _JNwtsOctEfGGV5w15Z9Mmg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_KpKUsOctEfGGV5w15Z9Mmg" name="End"/>
+  </packagedElement>
+</uml:Model>
