@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ChsaEOf4EfG7isUtzK3mqg" name="WardenDesign5A">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_ClmpsOf4EfG7isUtzK3mqg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Qh0F4Of4EfG7isUtzK3mqg" name="MaintenanceService">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lSvoEugBEfG7isUtzK3mqg" name="" type="_SUGi4Of4EfG7isUtzK3mqg" association="_lSvBAOgBEfG7isUtzK3mqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XIBZUOgCEfG7isUtzK3mqg" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XIBZUegCEfG7isUtzK3mqg" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TBW_kOf6EfG7isUtzK3mqg" name="receiveTicket"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_aHCo0Of6EfG7isUtzK3mqg" name="applyPriority"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_djKxcOf6EfG7isUtzK3mqg" name="claimTicket"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_e5x_EOf6EfG7isUtzK3mqg" name="resolveLocally"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_goGiEOf6EfG7isUtzK3mqg" name="escalateTicket"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hoC8IOf6EfG7isUtzK3mqg" name="sendTickletUpdate"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SUGi4Of4EfG7isUtzK3mqg" name="MaintenanceTicket">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dXPG4Of9EfG7isUtzK3mqg" name="ticketId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kfh_QOf9EfG7isUtzK3mqg" name="description" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zwavYOf9EfG7isUtzK3mqg" name="location" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1xhEcOf9EfG7isUtzK3mqg" name="priority" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_31lN8Of9EfG7isUtzK3mqg" name="status" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5zlywOf9EfG7isUtzK3mqg" name="assignedWardenId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qbXSQugCEfG7isUtzK3mqg" name="" type="_T97AYOf4EfG7isUtzK3mqg" association="_qbWrMOgCEfG7isUtzK3mqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x4nuAOgCEfG7isUtzK3mqg" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_x4oVEOgCEfG7isUtzK3mqg" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1HRbUugCEfG7isUtzK3mqg" name="" type="_VEY5MOf4EfG7isUtzK3mqg" association="_1HQ0QOgCEfG7isUtzK3mqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5V0fYOgCEfG7isUtzK3mqg" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5V0fYegCEfG7isUtzK3mqg" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Kdz7EugDEfG7isUtzK3mqg" name="" type="_WpP-MOf4EfG7isUtzK3mqg" association="_KdzUAOgDEfG7isUtzK3mqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Kd0iIOgDEfG7isUtzK3mqg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Kd0iIegDEfG7isUtzK3mqg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9TPJcOf9EfG7isUtzK3mqg" name="setPriority"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AQLbsOf-EfG7isUtzK3mqg" name="assignWarden"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Cq4jkOf-EfG7isUtzK3mqg" name="updateStatus"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_D_N5QOf-EfG7isUtzK3mqg" name="closeTicket"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FRnVQOf-EfG7isUtzK3mqg" name="canClose"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_T97AYOf4EfG7isUtzK3mqg" name="RepairEvidence">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_avBSAOf-EfG7isUtzK3mqg" name="evidenceId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_c0hl8Of-EfG7isUtzK3mqg" name="photoReference" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_e0nOYOf-EfG7isUtzK3mqg" name="capturedAt" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_h2GCYOf-EfG7isUtzK3mqg" name="resolutionNotes" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kOakoOf-EfG7isUtzK3mqg" name="validateEvidence"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VEY5MOf4EfG7isUtzK3mqg" name="PartUsage">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ojoRYOf-EfG7isUtzK3mqg" name="usageId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qsieoOf-EfG7isUtzK3mqg" name="quantityUsed" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_stHPQOf-EfG7isUtzK3mqg" name="usedAt" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__B4DQugCEfG7isUtzK3mqg" name="" type="_YseaMOf4EfG7isUtzK3mqg" association="__B3cMOgCEfG7isUtzK3mqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FFdWUOgDEfG7isUtzK3mqg" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FFdWUegDEfG7isUtzK3mqg" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_wfR5UOf-EfG7isUtzK3mqg" name="recordUsage"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WpP-MOf4EfG7isUtzK3mqg" name="ContractorCallOut">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FofuwOf_EfG7isUtzK3mqg" name="callOutId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HhOyAOf_EfG7isUtzK3mqg" name="contractorId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JmOvoOf_EfG7isUtzK3mqg" name="requestedAt" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LmYpgOf_EfG7isUtzK3mqg" name="emergency" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NeHAIOf_EfG7isUtzK3mqg" name="status" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QWtk8Of_EfG7isUtzK3mqg" name="initiate"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RY_hUOf_EfG7isUtzK3mqg" name="updateStatus"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YseaMOf4EfG7isUtzK3mqg" name="InventoryItem">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1eOfkOf-EfG7isUtzK3mqg" name="itemId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3zQdQOf-EfG7isUtzK3mqg" name="itemName" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5jtHMOf-EfG7isUtzK3mqg" name="quantityAvailable" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8OzbgOf-EfG7isUtzK3mqg" name="reorderLevel" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-JowgOf-EfG7isUtzK3mqg" name="deductStock"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_A7i3cOf_EfG7isUtzK3mqg" name="requestReorder"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lSvBAOgBEfG7isUtzK3mqg" memberEnd="_lSvoEugBEfG7isUtzK3mqg _lSwPIOgBEfG7isUtzK3mqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lSvoEOgBEfG7isUtzK3mqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lSvoEegBEfG7isUtzK3mqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lSwPIOgBEfG7isUtzK3mqg" name="" type="_Qh0F4Of4EfG7isUtzK3mqg" association="_lSvBAOgBEfG7isUtzK3mqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qbWrMOgCEfG7isUtzK3mqg" memberEnd="_qbXSQugCEfG7isUtzK3mqg _qbX5UugCEfG7isUtzK3mqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qbXSQOgCEfG7isUtzK3mqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qbXSQegCEfG7isUtzK3mqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qbX5UugCEfG7isUtzK3mqg" name="" type="_SUGi4Of4EfG7isUtzK3mqg" association="_qbWrMOgCEfG7isUtzK3mqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1HQ0QOgCEfG7isUtzK3mqg" memberEnd="_1HRbUugCEfG7isUtzK3mqg _1HSCYegCEfG7isUtzK3mqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1HRbUOgCEfG7isUtzK3mqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1HRbUegCEfG7isUtzK3mqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1HSCYegCEfG7isUtzK3mqg" name="" type="_SUGi4Of4EfG7isUtzK3mqg" association="_1HQ0QOgCEfG7isUtzK3mqg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__B3cMOgCEfG7isUtzK3mqg" memberEnd="__B4DQugCEfG7isUtzK3mqg __B4qUugCEfG7isUtzK3mqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__B4DQOgCEfG7isUtzK3mqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__B4DQegCEfG7isUtzK3mqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__B4qUugCEfG7isUtzK3mqg" name="" type="_VEY5MOf4EfG7isUtzK3mqg" association="__B3cMOgCEfG7isUtzK3mqg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BVH4QOgDEfG7isUtzK3mqg" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BVH4QegDEfG7isUtzK3mqg" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KdzUAOgDEfG7isUtzK3mqg" memberEnd="_Kdz7EugDEfG7isUtzK3mqg _Kd0iIugDEfG7isUtzK3mqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Kdz7EOgDEfG7isUtzK3mqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Kdz7EegDEfG7isUtzK3mqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Kd0iIugDEfG7isUtzK3mqg" name="" type="_SUGi4Of4EfG7isUtzK3mqg" association="_KdzUAOgDEfG7isUtzK3mqg"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0lavoOf7EfG7isUtzK3mqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0lck0Of7EfG7isUtzK3mqg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
